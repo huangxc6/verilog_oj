@@ -50,4 +50,4 @@ dout信号输出
 
 # 仿真结果
 
-![异步复位 同步释放](异步复位 同步释放.png)
+![异步复位 同步释放](/Asynchronous reset synchronous release.png)
