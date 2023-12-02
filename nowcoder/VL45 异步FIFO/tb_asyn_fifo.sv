@@ -90,7 +90,7 @@ module tb_asyn_fifo ();
 		init();
 		repeat(20)@(posedge wclk);
 
-		write(16) ;
+		write(15) ;
 		read (20) ;
 
 		repeat(10)@(posedge wclk);
