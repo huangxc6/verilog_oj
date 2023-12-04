@@ -35,7 +35,7 @@ module clk_div (
 	// state output
 	always @(posedge clk or negedge rst) begin
 		if (rst == 1'b0) begin
-			clk_out <= 1'b1 ;
+			clk_out <= 1'b0 ;
 		end else begin
 			if (next_state == S1) begin
 				clk_out <= 1'b1 ;
